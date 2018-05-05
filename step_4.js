@@ -1,11 +1,12 @@
 const $ = require("jquery");
+const SECRET = "07739c64272d95a7716a3647ba7f3bc4";
 
 console.log($("<div><span>some text here</span></div>").html());
 $(document.body).append("<div class='filmBox'></div>");
 
 getActorDataFromApi("Brad Pitt", displayFilmData);
 console.log($(".filmBox").html());
-const SECRET = "07739c64272d95a7716a3647ba7f3bc4";
+
 const filmographyURL = `https://api.themoviedb.org/3/person/{person_id}/combined_credits?api_key=${SECRET}&language=en-US`;
 
 function getActorDataFromApi(searchTerm, callback) {
@@ -49,7 +50,7 @@ function displayFilmData(data) {
   console.log(data);
   const results = data.cast.map((item, index) => renderResult(item));
   $(".filmBox").html(results);
-  //console.log(results);
+  console.log($(".filmBox").html());
 }
 
 function renderResult(item) {
