@@ -1,0 +1,30 @@
+[
+    [
+        {
+            "name": "signature",
+            "type": "string",
+            "subtype": [],
+            "optional": false
+        },
+        {
+            "name": "functionToEnforce",
+            "type": "function",
+            "subtype": [],
+            "optional": false
+        },
+        {
+            "name": "options",
+            "type": "object",
+            "subtype": [],
+            "optional": true
+        }
+    ],
+    [
+        {
+            "name": null,
+            "type": "function",
+            "subtype": [],
+            "optional": false
+        }
+    ]
+]

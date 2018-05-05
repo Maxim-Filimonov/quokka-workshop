@@ -1,0 +1,4 @@
+[
+    "A teston foo",
+    "A = 4 and foo = foo"
+]
