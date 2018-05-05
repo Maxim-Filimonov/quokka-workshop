@@ -1,0 +1,9 @@
+{
+    "name": "test",
+    "type": "tuple",
+    "subtype": [
+        "string",
+        "tuple<string;int>"
+    ],
+    "optional": true
+}

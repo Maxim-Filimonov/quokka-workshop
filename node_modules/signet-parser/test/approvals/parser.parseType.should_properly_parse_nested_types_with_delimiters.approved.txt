@@ -1,0 +1,10 @@
+{
+    "name": null,
+    "type": "tuple",
+    "subtype": [
+        "int",
+        "formattedString<^\\d+(\\%;)?\\D*$>",
+        "boolean"
+    ],
+    "optional": false
+}
