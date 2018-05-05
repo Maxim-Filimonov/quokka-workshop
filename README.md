@@ -1,7 +1,7 @@
 # Quokka.js Workshop
 
 Sponsored by
-![Thinkful logo](https://tf-shoebill-prod.imgix.net/img/thinkful-logo-white.dd5c47c.svg)
+<img src="https://tf-assets-prod.s3.amazonaws.com/tflogosquare.png" alt="Thinkful Logo" width="150"/>
 
 [Quokka](https://quokkajs.com/)
 
