@@ -10,7 +10,6 @@ function getActorDataFromApi(searchTerm, callback) {
     data: "{}"
   };
   $.ajax(settings).done(function(response) {
-    //console.log(response);
     let filmURL = getfilmURL(getID(getResults(response)));
     getFilmographyFromApi(filmURL, callback);
   });
@@ -47,8 +46,13 @@ function displayFilmData(data) {
 }
 
 function renderResult(item) {
-  return `<li>${item.name || item.title}</li>`;
+  if (item.name || item.magic) {
+    return `<li>${item.name}</li>`;
+  } else {
+    return `<li>${item.title}</li>`;
+  }
 }
+console.log(renderResult(null));
 
 function watchSubmit() {
   $(".js-search-form").submit(event => {
@@ -62,4 +66,4 @@ function watchSubmit() {
 }
 
 // This product uses the TMDb API but is not endorsed or certified by TMDb.
-$(watchSubmit);
+// $(watchSubmit);
