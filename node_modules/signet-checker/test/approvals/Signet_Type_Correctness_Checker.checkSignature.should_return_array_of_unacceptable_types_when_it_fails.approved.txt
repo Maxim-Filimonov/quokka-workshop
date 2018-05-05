@@ -1,0 +1,14 @@
+[
+    {
+        "name": null,
+        "type": "foo",
+        "subtype": [],
+        "optional": false
+    },
+    {
+        "name": null,
+        "type": "bar",
+        "subtype": [],
+        "optional": false
+    }
+]
