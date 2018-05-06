@@ -28,3 +28,4 @@ Sponsored by
   * Description of steps wasn't clear
     * powerpoint ?
     * visual headline for each step on the file
+  * Steps start and endpoint - unclear
