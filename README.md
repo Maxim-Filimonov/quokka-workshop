@@ -29,3 +29,4 @@ Sponsored by
     * powerpoint ?
     * visual headline for each step on the file
   * Steps start and endpoint - unclear
+  * Try to stream without owl - OBS directly to youtube/twitch ?
